@@ -27,6 +27,14 @@
 pip install -r requirements.txt
 ```
 
+## 重构版本
+
+`notebooks/` 目录下是重构后的版本：
+- 移除 d2l 依赖，使用标准 PyTorch + d2l_compat 工具模块
+- CV 部分使用 torchvision
+- NLP 部分新增 HuggingFace Transformers 示例
+- 详见 `notebooks/README.md`
+
 ## 参考
 
 - [《动手学深度学习》官方教材](https://zh.d2l.ai/)
